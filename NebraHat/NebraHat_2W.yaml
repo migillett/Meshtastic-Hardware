@@ -5,8 +5,14 @@ Lora:
   DIO2_AS_RF_SWITCH: true
   DIO3_TCXO_VOLTAGE: true
   SX126X_MAX_POWER: 8
-  CS: 8
+#  CS: 8
   IRQ: 22
   Busy: 4
   Reset: 18
   RXen: 25
+
+General:
+  MACAddressSource: eth0
+  MaxNodes: 200
+  MaxMessageQueue: 100
+  ConfigDirectory: /etc/meshtasticd/config.d/
